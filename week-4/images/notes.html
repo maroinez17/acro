@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
     <title>Maroine Nfif - notes</title>
 </head>
+
 <body>
    <header>
 <h1>Maroine Nfif</h1>
@@ -12,13 +13,40 @@
     <ul>
         <li>
             <a href="index.html">Home</a>
+        </li>
+        <li>
             <a href="notes.html">notes</a>
         </li>
     </ul>
     </nav>
 </header>
-<article>
-    <h2>About Me</h2>
+<!-- page content -->
+<main>
+    <h2>available</h2>
+    <table>
+        <caption>
+            <thead>
+                <tr>
+                    <th>day</th>
+                    <th>hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mon - sat</td>
+                    <td>7 AM - 10 PM</td>
+                </tr>
+                <tr>
+                <td>sun</td>
+                <td>closed</td>
+            </tr>
+            </tbody>
+        </table>
+        </caption>
+    </table>
+    <!--page content -->
+        <h3>notes about me</h3>
+        <article>
     <p>
         I am a 1 year student in the program <em>Interactive media design</em> at Algonquin College in Ottawa.
      </p>
@@ -28,38 +56,64 @@
      <blockquote>
          live learn enjoy <cite>- Maroine Nfif</cite>
      </blockquote>
-     <!-- page content -->
-     <h3>notes about us</h3>
-     <p>Send us a message</p>
-</article>
+        </article>
+     <!-- adding a form -->
+       <section>
+        <h3>We love to hear from you!</h3>
+        <form action="thanks.html" method="get">
+          <div>
+            <label for="fullname">Your Name</label>
+            <input type="text" id="fullname" name="yourname" placeholder="Maroine Nfif" value="Mr. ">
+          </div>
+          <div>
+            <label for="youremail">Email</label>
+            <input type="email" id="youremail" name="youremail" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div>
+            <label for="tickets">How many tickets? (sold in pairs)</label>
+            <input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
+          </div>
+          <div>
+            <label for="row">Select Row</label>
+            <select name="row" id="row">
+              <option value="front">Front</option>
+              <option value="center" selected>Center</option>
+              <option value="back">Back</option>
+            </select>
+          </div>
+          <div>
+            <h4>Have you been here before?</h4>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="past">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="past">
+          </div>
+          <div>
+            <h5>Policies</h5>
+            <input type="checkbox" name="policies" id="policies" checked required>
+            <label for="policies">I agree with the Terms and Policies.</label>
+          </div>
+          <button type="submit">Sign me up!</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <!-- HTML Entity -->
+      copyright &copy ; Maroine Nfif, 2020
+    </footer>
+  </body>
+  
+  </html>
 
-    <main>
-         <a href="#moto">deal of the week</a>
-         <article>
-         <!-- Adding section for the ordered list -->
-     <section>
-        <h4>events</h4>
-        <ol>
-            <li> 23<sup>rd</sup> - stunt competition</li>
-            <li> oct 17<sup>th</sup> - modified bikes show case</li>
-    </ol>
-        </section>
 
-     </article>
-     <section id="moto">
-    <h5>deal of the week</h5>
-        <dl>
-            <dt>name</dt>
-            <dd>kawazaki z1000</dd>
-            <dt>couple motore</dt>
-            <dd>1000cc</dd>
-            <dt>price</dt>
-            <dd>7500$</dd>
-        </dl>
-        <!-- adding link to the bike site and opening in a new tab -->
-        <a href="https://www.kijiji.ca/v-moto-sport-promenade/laval-rive-nord/z1000-2013-special-edition/1525765057?undefined" target="_blank">see the bike</a>
-       </section>
-    </maim>
-</body>
 
-</html>
+
+
+
+
+
+
