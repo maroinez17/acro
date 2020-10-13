@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+footer {
+    background: orange
+}
+/*
+this is a CSS comment
+shortcut for adding the comment control + / or command + /
+*/
+h1{
+    color: white;
+}
+p{
+    background-color: lightblue;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: underline;
+}
+nav ul {
+    list-style: none;
+}
+nav ul a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+/* selecting HTML element with classe name */
+.orange-link {
+    background: darkslategrey;
+    color: orange;
+    text-decoration: none;
+}
+
+/* selecting HTML element with id value */
+#tow {
+    background: orange;
+}
+
+.large-text {
+    font-size: 18px;
+}
+
+/* child selector or DIirect child selector
+Selecting only the p directly inside the articale 
+*/
+article>p {
+    font-size: 22px;
+}
+
+/* adjustment sibling selector
+selecting only the ul that is adjacent to a h3
+  */
+h5+ul {
+      border: 5px solid black;
+  }
+
+  /* attribute selector */
+  [href="#myimage"] {
+      box-shadow: 0 0 2px 1px black;
+  }
+
+  [href="#tow"] {
+      font-weight: bold
+  }
+  [target="_blank"] {
+      text-transform: uppercase;
+  }
+  nav ul a,
+  nav ul a:link,
+  nav ul a:visited {
+      background: orange;
+      box-shadow: -2px 2px 4px 1px black;
+  }
+
+  nav ul a:hover,
+  nav ul a:focus {
+      text-decoration: underline;
+  }
+
+  nav ul a:active {
+      box-shadow: 0 0 4px 2px black;
+  }
+  /* position related selectors
+  first child */
+  aside ul li:first-child{
+    font-weight: bold;  
+  }
+  /* last child */
+  section ol li:last-child{
+      font-weight: bold;
+  }
+
+  /* collapse table border into one */
+  table{
+      border-collapse: collapse;
+  }
+  /* nth-child selector */
+  tbody tr:nth-child(even) {
+      background-color: #d5836c;
+  }
+  
+  table th:nth-child(n),
+  table td:nth-child(n) {
+      border:1px solid #000
+  }
+  table td:nth-child(2n+1) {
+background-color: rgba(0, 0, 0, 2);      
+  }
+ 

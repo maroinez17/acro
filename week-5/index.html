@@ -4,10 +4,13 @@
     <head>  
         <meta charset="UTF-8">
     <title>Maroine Nfif - Home</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
+<a href="#myimage">image stunting</a>
+
 <body>
     <!-- Site header -->
-   <header>
+   <header style="background:orange;">
 <h1>Maroine Nfif</h1>
 <nav>
     <ul>
@@ -22,6 +25,8 @@
 </header>
 <!-- page content -->
 <main>
+    <!-- adding class orange-link to the tag -->
+    <a href="#tow" class="orange-link">treat of the week</a>
 <article>
     <h2>About Me</h2>
     <p>
@@ -36,10 +41,12 @@
 </article>
      <!-- adding image-->
      <article>
+        <section id="myimage">
 <h3>image stunting</h3>
-      <img src="images/img1x.jpeg" alt="Maroine stunt riding">
-     <blockquote>
-     riding is an art <cite>-Maroine the Acroboooy</cite>
+      <img alt="" width="700", height="450" src="images/img1x.jpeg">
+      </section>
+     <blockquote class="large-text">
+     riding is an art <cite>- Maroine the Acroboooy</cite>
      </blockquote>
      </article>
      <p>
@@ -55,7 +62,7 @@
  </ol>
      </section>
  <!-- Adding section for the description list -->
- <section>
+ <section id="tow">
  <h5>deal of the week</h5>
  <dl>
      <dt>name</dt>
@@ -66,12 +73,36 @@
      <dd>7500$</dd>
  </dl>
  <!-- adding link to the bike site and opening in a new tab -->
- <a href="https://www.kijiji.ca/v-moto-sport-promenade/laval-rive-nord/z1000-2013-special-edition/1525765057?undefined" target="_blank">see the bike</a>
+ <a href="https://www.kijiji.ca/v-moto-sport-promenade/laval-rive-nord/z1000-2013-special-edition/1525765057?undefined" target="_blank" class="orange-link large-text">see the bike</a>
 </section>
+<h6>menu Specials</h6>
+<table >
+    <thead>
+        <tr>
+            <th colspan="2">Items</th>
+            <th rowspan="2">Price</th>
+        </tr>
+        <tr>
+            <th>name</th>
+            <th>using</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>akrapoviç</td>
+            <td>exhaust</td>
+            <td>&dollar; 99,99</td>
+        </tr>
+        <tr>
+            <td>baracoda</td>
+            <td>hand protecters</td>
+            <td>&dollar; 49,99</td>
+        </tr>
+    </tbody>
 </main>
+</body>
      <footer>
          copyright &copy ; Maroine Nfif, 2020
      </footer>
-</body>
 
 </html>
