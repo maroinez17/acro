@@ -3,7 +3,7 @@ body {
     color: red;
 }
 footer {
-    background: orange
+    background: rgb(62, 238, 18)
 }
 /*
 this is a CSS comment
@@ -34,13 +34,13 @@ nav ul a {
 /* selecting HTML element with classe name */
 .orange-link {
     background: darkslategrey;
-    color: orange;
+    color: rgb(62, 238, 39);
     text-decoration: none;
 }
 
 /* selecting HTML element with id value */
 #tow {
-    background: orange;
+    background: rgb(62, 238, 27);
 }
 
 .large-text {
@@ -75,8 +75,8 @@ h5+ul {
   nav ul a,
   nav ul a:link,
   nav ul a:visited {
-      background: orange;
-      box-shadow: -2px 2px 4px 1px black;
+      background: rgb(62, 238, 18);
+      box-shadow: -2px 2px 4px 2px black;
   }
 
   nav ul a:hover,
