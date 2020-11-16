@@ -49,7 +49,6 @@ nav ul a {
   nav ul a:visited {
       background: rgb(62, 238, 18);
       box-shadow: -2px 2px 4px 2px black;
-
   }
 
   nav ul a:hover,
