@@ -1,8 +1,4 @@
 @media (max-width: 760px){
-    head{
-        display: flex;
-    }
-    /* adding media mockup first */
 header{
     background: #222;
 } 
@@ -28,7 +24,6 @@ h1+p{
 background-attachment: fixed;
 
 }
-/* confi the logo */
 .logo{
     color: #222;
     background-color: #c78c06;
@@ -108,7 +103,6 @@ nav ul a {
   text-align:center;
   
       }
-      /* config the main */
       
       main{
           display: flex;
@@ -118,6 +112,7 @@ nav ul a {
         background-size: cover;
         padding: 70px;
         text-align: left;
+        text-size-adjust: 25px;
         color: white;
         padding-left:15px;
         padding-bottom: 80px;
@@ -149,7 +144,6 @@ font-weight: bold;
 h4{
     font-size:35px;
 }
-/* styling the services page */
 .services{
     background: #ffe6ac;
 }
@@ -218,6 +212,7 @@ h9{
     background-size: cover;
     padding: 70px;
     text-align: left;
+    text-size-adjust: 25px;
     color: white;
     padding-left:15px;
     padding-bottom: 80px;
@@ -236,7 +231,7 @@ h10{
     float: left;
     margin-bottom: 15px;
 }
-/* styling the headings */
+/* styling the */
 h11{
     display: flex;
     font-weight: bold;
@@ -418,6 +413,7 @@ width:100%;
       background-size: cover;
       padding: 70px;
       text-align: left;
+      text-size-adjust: 25px;
       color: white;
       padding-left:15px;
       padding-bottom: 80px;
@@ -580,6 +576,7 @@ width:100%;
             background-size: cover;
             padding: 40px;
             text-align: left;
+            text-size-adjust: 25px;
             color: white;
             padding-left:75px;
             padding-bottom: 80px;
