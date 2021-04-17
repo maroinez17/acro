@@ -5,7 +5,7 @@
     perspective: 70rem;
   }
   .cover {
-    background-color: #36354e;
+    background-color: #23216d;
     transform: rotateY(0deg);
     width: 7.25rem;
     height: 10.5rem;
@@ -16,7 +16,7 @@
   }
   
     .content-overlay {
-    background: rgba(0, 0, 0, 0.76);
+    background: rgba(7, 8, 24, 0.76);
     position: absolute;
     left: 0;
     top: 0;
@@ -56,7 +56,7 @@
   }
   
   .content-details h2{
-    color: #fff;
+    color: rgb(152, 248, 224);
     font-weight: 500;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
@@ -64,7 +64,7 @@
   }
   
   .content-details p{
-    color: rgb(187, 110, 110);
+    color: rgb(235, 253, 156);
     font-size: 1rem;
   }
   
@@ -99,11 +99,11 @@
   }
 
   .footer-social i{
-    color: rgb(14, 14, 14);
+    color: rgb(252, 222, 232);
   }
   p.social-links.contact-edu{
     font-size: 1.5rem;
-    color: rgba(14, 10, 10, 0.767);
+    color: rgba(157, 140, 255, 0.767);
   }
 
   .each-image{
@@ -154,7 +154,7 @@
 
   @keyframes revealBlock {
     100% {
-      color: #0f0f0f;
+      color: #2e0303;
     }
   }
   
@@ -187,7 +187,7 @@
     }
     p.social-links.contact-edu{
       font-size: 1.5rem;
-      color: rgb(49, 49, 49);
+      color: rgb(56, 23, 23);
     }
   }
   @media (max-width: 700px) {
