@@ -11,7 +11,7 @@
         width: 70px;
         height: 70px;
         position: relative;;
-        left: 200px;
+        left: 60px;
         top: 50px;
     }
     
@@ -31,9 +31,6 @@
           
           body{
             width:auto;
-            background-image: url("../images/scooter.svg");
-            background-repeat: no-repeat;
-            width: 500px;
             
             
         
@@ -45,8 +42,7 @@
               padding:30px;
               background:#f7f7ff;
               box-shadow: 10px 10px 10px 5px rgba(0,0,0,.5);
-              float:right;
-              margin-left: 50px;
+              margin-left: 30px;
               margin-bottom: 80px;
               border-radius: 30px;
           }
@@ -68,13 +64,20 @@
             width: 200px;
             font-size:15px ;
             font-family: montserrat-bold;
-            border-radius: 30px;
+            border-radius: 10px;
 
           }
+          /* adding container to adjust social media icons using flexbox */
           .social{
-            border-radius: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-bottom: 30px;
               
              
+          }
+          img{
+              border-radius: 10px;
           }
           /* cinfiguring the info section pallete */
          .toto{
@@ -120,14 +123,12 @@ border-radius: 30px;
          /* configuring the headings  */
     h1{
         color:#333131;
-        height:60px;
         padding: 50px;
-        align-items: center;
-        width: 150px;
-        font-size:35px ;
+        padding-bottom: 0%;
+        width: 200px;
+        font-size:45px ;
         font-family: montserrat-bold;
-        position: relative;
-        left: 170px;
+        height: auto;
     }
          
     h2{
@@ -135,28 +136,20 @@ border-radius: 30px;
         padding-top: 20px;
         margin: 10px;
         font-family: montserrat-ExtraLight;
-        font-size: 14px;
-        width: 190px;
+        font-size: 28px;
+        width: 400px;
         font-weight: lighter;
-        margin: 30px;
-        float: right;
-        position: relative;
-        right: 55px;
-    
+        padding-left: 50px;
     }
     h3{ color:#333131;
-        height:60px;
         align-items: center;
         font-size:25px ;
         font-family: montserrat-bold;
-
     }
     h4{
         color: #333131;
-        padding-top: 20px;
-        margin: 10px;
         font-family: montserrat-ExtraLight;
-        font-size: 11px;
+        font-size: 15px;
         font-weight: lighter;
 
     }
@@ -165,53 +158,89 @@ border-radius: 30px;
         padding-top: 20px;
         margin: 10px;
         font-family: montserrat-ExtraLight;
-        font-size: 11px;
+        font-size: 14px;
         font-weight: lighter;
 
     }
     h6{
          color:#333131;
-        align-items: center;
         font-size:15px ;
         font-family: montserrat-bold;
-        padding-left:50px;
+        padding-left:20px;
     }
     h7 {
         color: #333131;
         font-family: montserrat-ExtraLight;
         font-size: 15px;
         font-weight: lighter;
-        padding-left:50px ;
+        padding-left:20px ;
 
 
     }
         /* styling the footer */
     footer {
-        display: block;
-        width: 250px;
-              padding:30px;
+        width: 100%;
               background:#fffd8c;
-              border-radius: 30px;
-              float:right;
-              
         
         
         
         
+    }
+    article>img{
+        width: 100%;
+        height: auto;
+        max-width: 500px;
     }
      
     
     /* styling the send botton */
     button{
         border: 0px;
-        height: 30px;
+        height: 40px;
         font-size: 20px;
         margin-top:20px;
         margin-bottom: 20px;
-        border-radius: 30px;
+        border-radius: 10px;
+        font-weight: lighter;
     }
+ #city{
+        color: #333131;
+        background:rgba(255, 255, 255, 0.863);
+        padding:8px;
+        width: 150px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px;   
+        border-radius: 5px; 
+    }
+
+    #Hours{
+        color: #333131;
+        background:rgba(255, 255, 255, 0.884);
+        padding:8px;
+        width: 50px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px;   
+        border-radius: 5px; 
+
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 2 / 2 / 4; }
+        .div2 { grid-area: 2 / 2 / 3 / 4; }
+        .div3 { grid-area: 3 / 1 / 4 / 2; }
+        .div4 { grid-area: 3 / 2 / 4 / 3; }
+        .div5 { grid-area: 4 / 2 / 5 / 3; }
     
-}
+  
+}    
     /* adding media query for screen 760px and above */
     @media (min-width: 760px) and (max-width: 1500px){
     
@@ -245,10 +274,6 @@ border-radius: 30px;
               body{
                  
                 width:auto;
-                background-image: url("../images/scooter.svg");
-                background-repeat: no-repeat;
-                
-            
                
               }
               .ero{
@@ -394,8 +419,8 @@ border-radius: 30px;
             background: #fffd8c;
             font-size: 15px;
             font-weight: normal;
-            width: 1400px;
-            height: 200px;
+            width: 100%;
+            height: auto;
             border-radius: 30px;
         }
          
@@ -407,6 +432,51 @@ border-radius: 30px;
             font-size: 20px;
             margin-top:20px;
             margin-bottom: 20px;
-            border-radius: 30px;
+            border-radius: 10px;
         }
+        .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-bottom: 30px;
     } 
+    #city{
+        color: #333131;
+        background:rgba(255, 255, 255, 0.863);
+        padding:8px;
+        width: 150px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px;   
+        border-radius: 5px; 
+    }
+
+    #Hours{
+        color: #333131;
+        background:rgba(255, 255, 255, 0.884);
+        padding:8px;
+        width: 50px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px;   
+        border-radius: 5px; 
+
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat( 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 0 / 1 / 2 / 4; }
+        .div2 { grid-area: 2 / 1 / 3 / 4; }
+        .div3 { grid-area: 3 / 2 / 4 / 1; }
+        .div4 { grid-area: 4/ 3 / 3 / 2; }
+        .div5 { grid-area: 5 / 3 / 3 / 3; }
+    
+  
+
+}
