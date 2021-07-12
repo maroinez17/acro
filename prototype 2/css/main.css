@@ -14,6 +14,9 @@
         padding-right: 200px;
         margin: 8px;
     }
+    #divicon{
+        
+    }
     nav ul{
             display: block;
             background-color: #3c3b3a;
@@ -333,7 +336,7 @@ height: 0px;
 
 
     }
-    h8{
+    entertainment{
         color: #26a682;
         font-family:raleway;
         font-style: italic;
