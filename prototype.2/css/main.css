@@ -17,6 +17,7 @@
     #divicon{
         
     }
+    /* configuring the nav tab and it elements */
     nav ul{
             display: block;
             background-color: #3c3b3a;
@@ -37,7 +38,7 @@
                 padding: 10px;
                 font-size: 20px;
             }
-    
+    /* img adjusting  */
         .discover{
             width: 500px;
         }
@@ -89,6 +90,7 @@
 
             
         }
+
         h34{
             width: 500px;
                 position: relative;
@@ -101,18 +103,6 @@
                 padding-left:75px;
                 padding-bottom:100px
         }
-        .bar{
-            display: none;
-        }
-        .bowling{
-            display: none;
-        }
-        .fitness{
-            display: none;
-        }
-        .climbing{
-            display: none;
-        }
     p{
         color: #3c3b3a;
         margin: 10px;
@@ -123,12 +113,12 @@
         
     }
     
-      /* resize a change olace of the body */
+      /* making the body responsive */
           
           
           body{
             width:auto;
-            width: 500px;
+            max-width: 500px;
             
             
         
@@ -1303,12 +1293,15 @@ left: 95px;
                 font-weight: normal;
                 color: #3c3b3a;
             }
+                        /* adjusting the paragraph child of the head 26 */
+
             h26+p{
                 font-size: 20px;
                 font-family: raleway;
                 font-weight: lighter;
                 color: #3c3b3a;
             }
+            /*  */
             h11{
                 color:#3c3b3a;
             
@@ -1320,6 +1313,7 @@ left: 95px;
             margin-left: 50px;
     
             }
+            /* adjusting the paragraph child of the head 11 */
             h11+p{
                 color:#3c3b3a;
                 font-size:35px ;
@@ -1330,6 +1324,7 @@ left: 95px;
                 padding: 20px;
                 width: 600px;
             }
+            /* adding the footer */
         footer {
             width: 1000px;
                   background: #333131;
