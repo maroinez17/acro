@@ -39,13 +39,12 @@
                 font-size: 20px;
             }
     /* img adjusting  */
-        .discover{
-            width: 500px;
-        }
-        .school{
-            width: 500px;
-
-        }
+    .img{
+        display: block;
+        /* make all images fit container up to 100% width */
+        max-width: 100%;
+    }
+       
         .simon{
             width: 150px;
             border: 20px;
@@ -60,19 +59,7 @@
             height: 380px;
             
         }
-        .entertainment{
-            width: 500px;
-        }
-        .media{
-            width: 450px;
-        }
-        .construction{
-            width: 500px;
-
-        }
-        .about{
-            width:500px;
-            }
+       
             
         h33{
                 width: 500px;
@@ -692,10 +679,7 @@ left: 95px;
             .discover{
                 width: 800px;
             }
-            .school{
-                width: 900px;
-    height: 300px;
-            }
+            
             .simon{
                 width: 160px;
                 border: 20px;
@@ -826,7 +810,6 @@ left: 95px;
               }
               .banner{
                 transition:opacity 1s;
-                transform:2s ;
                 transform:scale(2);
               
               }
@@ -1340,12 +1323,10 @@ left: 95px;
        }
            .arow{
             transition:opacity 1s;
-            transform:0.5s ;
            } 
          .arow:hover{
             opacity:0.5;
             transition:0.5s;
-            transform:1s ;
          }   
          
         
@@ -1401,8 +1382,7 @@ left: 95px;
                 width: 1200px;
             }
             .school{
-                width: 1200px;
-    height: 300px;
+max-height: 400px;
             }
             .simon{
                 width: 160px;

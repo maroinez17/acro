@@ -3,15 +3,16 @@
 <html> 
     <head>
 <title>Discover Your ARC</title>
-<!-- adding the logo and the link for the css -->
+<!-- adding the icon link and the link for the css -->
         <link href="css/main.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c6bae5e376.js" crossorigin="anonymous"></script>
 
     </head>
     <!-- Site header -->
     <header>
-      
+      <!-- adding website logo -->
       <img src="images/logo.svg" alt="logo" class="logo">
+      <!-- adding navigation -->
       <nav>
         <ul>
             <li>
@@ -34,6 +35,7 @@
      <article>
 <h2>With Algonquin VCollege's newest facility.there's always somthing for everyone to discover and enjoy!
 </h2>
+<!-- adding activities and their icons -->
 <div id="divicon">
 <i class="fas fa-bowling-ball fa-3x"></i>
 <span class="bowling">Bowling</span>
@@ -48,7 +50,12 @@
 </article>
 <img src="images/discover.svg" alt="logo" class="discover">
 <!-- adding the palette -->
-<img src="images/school.jpg" alt="school" class="school">
+    <!-- optimising images for different scren sizes -->
+<img src="images/school.jpg" alt="school" class="school"
+srcset="images/school-480.jpg 500w"
+srcset="images/school-720.jpg 800w"
+srcset="images/school-960.jpg 1000w">
+>
 <section class="exobit">
 </section> 
      <h4>Discover</h4>
@@ -57,13 +64,21 @@
      <button class="learn more">learn More </button>
 
 <section class="mero">
-  <img src="images/simon.jpg" alt="simon" class="simon">
+      <!-- optimising images for different scren sizes -->
+  <img src="images/simon.jpg" alt="simon" class="simon"
+  srcset="images/simon-480.jpg 500w"
+srcset="images/simon-720.jpg 800w"
+srcset="images/simon-960.jpg 1000w">
   <h6>Dijanelle Simon
     SA President</h6>
     <p>"Only with increased capacity can we expand and create a more inclusive program that attracts a greater number of students to participate in physical and social activity. The Students' Association is committed to and focused on programming that results in our students taking person ownership for their health."
     </p>
     </section>
-    <img src="images/entertainment.jpg" alt="entertainement" class="entertainment">
+    <!-- optimising images for different scren sizes -->
+    <img src="images/entertainment.jpg" alt="entertainement" class="entertainment"
+    srcset="images/entertainment-480.jpg 500w"
+srcset="images/entertainment-720.jpg 800w"
+srcset="images/entertainment-960.jpg 1000w">
 
     <h7>Discover</h7>
     <h8>The entertainment</h8>
@@ -71,10 +86,11 @@
     <p>at Algonquin College is endless. We currently have the Algonquin Commons Theatre where we host a variety of events. Now with the coming of the ARC facility, not only will it be providing more space for the students to study, but it will also be bringing in more room for late-night entertainment.</p>
     <button class="learn">learn More </button>
 
-
+<!-- adding the footer -->
     <h9>Follow us</h9>
 </body>
     <footer>
+      <!-- social media  -->
   <section class="social">
   <img src="images/instagram.svg" alt="instagram">
   <img src="images/twitter.svg" alt="twiter">
